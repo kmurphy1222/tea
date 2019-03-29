@@ -1,0 +1,139 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.main {
+    padding-top: 70px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    }
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 10px;
+    height: 50px;
+  }
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+nav span {
+    padding: 20px 10px;
+}
+
+a {
+    color: white;
+}
+
+/* Main Content */
+
+#mission {
+    background-image: URL(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+    height: 130px;
+}
+
+#featured {
+   width: 1000px;
+   padding-top: 70px;
+}
+
+.featured-text {
+    margin-left: 200px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    width: 1200px;
+}
+
+.tea {
+   margin: 2px;
+}
+
+
+.teas img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    background-image: URL(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 600px;
+    width: 1200px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.places {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.places.span {
+    width: 300px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#locations h2 {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.copyright {
+    text-align: left;
+}
